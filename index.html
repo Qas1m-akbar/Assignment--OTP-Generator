@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating OTP Generator using javascript</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+      
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="otp-container">
+      <h1>Making OTP Generator</h1>
+      <input type="email" id="email" required placeholder="Your Email..." />
+      <div class="otp-valid">
+        <input type="text" id="otp_input" placeholder="Enter your OTP..." />
+        <button class="btn-1" id="otp_btn">Verification</button>
+      </div>
+      <button class="btn-2" onclick="sendOTP()">Send OTP</button>
+      
+    </div>
+    <script src="./otp.js"></script>
+      
+  </body>
+</html>

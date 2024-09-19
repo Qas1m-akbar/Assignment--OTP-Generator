@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif, "poppins";
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: lightslategrey;
+  }
+
+  .otp-container {
+     /* border: 1px solid blue; */
+    background-color: rgb(221, 140, 172); 
+    width: 500px;
+    padding: 10px 30px;
+    display: grid;
+    gap: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background 0.5s ease-in-out;
+  }
+  input:hover {
+    background: rgb(223, 208, 208);
+  }
+
+  .otp-valid {
+    width: 100%;
+    display: grid;
+    gap: 12px;
+  }
+  .btn-1 {
+    border-radius: 20px;
+    padding: 8px;
+    width: 40%;
+    margin: auto;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    background-color: transparent;
+    outline: none;
+    letter-spacing: 2px;
+    transition: background 0.5s ease-in-out;
+  }
+  .btn-1:hover {
+    background: rgb(51, 128, 201);
+    color: white;
+  }
+  .btn-2 {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    font-size: 18px;
+    border-radius: 10%;
+    background-color: rgb(235, 184, 122);
+  }
+  .otp-valid {
+    display: none;
+  }
